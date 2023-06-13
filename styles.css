@@ -217,6 +217,10 @@ span{
         font-size: 0.9rem;
     }
 
+    form{
+        margin-top: 2.25rem;
+    }
+    
     input{
         width: 25rem;
         padding: 1.3rem;
