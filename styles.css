@@ -168,7 +168,7 @@ span{
     }
     
     .signup-form{
-        width: 58rem;
+        width: 60rem;
         display: flex;
         flex-direction: row-reverse;
         padding: 2rem;
@@ -184,6 +184,8 @@ span{
 
     .text-container{
         font-size: 1.25rem;
+        padding: 0;
+        padding-left: 1rem;
     }
     .text-container .bold{
         margin-top: 3rem;
@@ -194,8 +196,18 @@ span{
         align-items: center;
         margin-bottom: 1rem;
     }
+
+    .features-list__item img{
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+
     .features-list__item p {
         margin: 0;
+    }
+
+    .features-list__item:last-of-type p{
+        margin-bottom: 0;
     }
 
     .bold{
@@ -206,11 +218,13 @@ span{
     }
 
     input{
+        width: 25rem;
         padding: 1.3rem;
         font-size: 1.15rem;
     }
 
     button{
+        width: 25rem;
         padding: 1.3rem;
         font-size: 1.15rem;
     }
